@@ -1,36 +1,25 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    int removeDuplicates(vector<int>& nums) {
-        int ans=0;
-        for(int i=1;i<nums.size();i++){
-            if(nums[i]!=nums[ans]){
-                ans++;
-                nums[ans]=nums[i];
-            }
-        }
-        return ans+1;
-        
+    vector<int> buildArray(vector<int> &nums)
+    {
+
+        // Approach 1:
         // int n = nums.size();
-        // int k = 0;
-        // if(n>1){
-        //     for (int i=0;i<n;i++){
-        //     int count = 0,j=i;
-        //     while(nums[i]==nums[++j]){
-        //         count++;
-        //     }
-        //         nums[k+1] = nums[i+count+1];
-        //         i+=count;
-        //         k++;
-        //     }
+        // vector<int> ans;
+        // for (int i = 0; i < n; i++)
+        // {
+        //     ans.push_back(nums[nums[i]]);
         // }
-        // else{
-        //     k=n;
-        // }
-        // return k;
+        // return ans;
+
+        // Approach 2: with O(1) memory usage
+        
+
     }
 };
 
@@ -38,9 +27,16 @@ int main(int argc, char const *argv[])
 {
     Solution s;
     vector<int> nums;
-    nums = s.removeDuplicates(nums);
-    for(int i = 0; i<nums.size(); i++){
-        cout<<nums[i]<<" ";
+    nums = s.buildArray(nums);
+    nums.push_back(0);
+    nums.push_back(2);
+    nums.push_back(1);
+    nums.push_back(5);
+    nums.push_back(3);
+    nums.push_back(4);
+    for (int i = 0; i < nums.size(); i++)
+    {
+        cout << nums[i] << " ";
     }
     return 0;
 }
