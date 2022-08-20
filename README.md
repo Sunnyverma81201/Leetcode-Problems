@@ -18,3 +18,12 @@ Solutions to leet code problems
 11. [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 12. [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)
 13. [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)
+
+
+## Week 2
+`arrays` & `strings` | `easy` + `medium`
+
+14. [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
+15. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
+16. [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)
+17. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
